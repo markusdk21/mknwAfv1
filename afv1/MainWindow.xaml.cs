@@ -58,7 +58,7 @@ namespace afv1
                                 users.Add(new User(str));
                                 listbox1.ItemsSource = users;
                                 LinesOnBar.Content = $"Number of lines: {users.Count}";
-                                TimeLoadedOnBar.Content = $"Lasted upload: {DateTime.Now}";
+                                TimeLoadedOnBar.Content = $"Lasted upload at: {DateTime.Now}";
                             }
                         }
                     }
